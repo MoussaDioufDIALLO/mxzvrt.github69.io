@@ -1,0 +1,62 @@
+.paris{
+    font-weight: bold;
+}
+body{
+
+    margin:0 auto;
+    background-color: rgb(41, 214, 223); 
+
+}
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+    
+nav li{
+    justify-content: space-between;
+    display: inline-block;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    }
+nav.nav li a{
+    justify-content: space-between;
+    font-weight: bold;
+    
+    display: flex;
+    color:black;
+
+}
+header.header{
+    color:black;
+    
+}
+a:hover{
+    background-color:white;
+    border:1;
+    border-radius: 15px 50px;
+}
+.LTE{
+    background-image:url(../images/prs3.jpg);
+    color: white; 
+    height:45vh;
+ }
+ .PSX{
+     width: 6vh;
+ }
+ 
+
+div.slides {
+    display: flex;
+    flex-direction: row;
+    animation: glisse 10s infinite ease;
+
+}
+
+ img{
+     width: 350px;
+}
+ .slide1{
+     height: 20px;
+ }

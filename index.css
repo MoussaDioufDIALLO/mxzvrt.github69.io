@@ -1,78 +1,106 @@
-nav a{
-    display: inline-block; 
-    background-color:black;
-    color:white;
-    padding-left: 100px;
+section.top-page{  
+    background:url(../images/logo.jpg);
+    background-position: center;
+    height: 50vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    
+}
+ header.header logo {
+     width: 15px;
+}
+
+nav.nav{
     font-weight: bold;
     font-size: 20px;
- }
- header{
-     background-color: black;
-     margin-top: -25px;
-     margin-left: -10px;
-     margin-right: -10px;
- }
- h1{
-     color: white;
-     text-align: center;
-     font-family: Freestyle Script;
- }
- a:hover{
-     background-color: rgb(78, 74, 74);
-     border: 1;
-     border-radius: 20px 20px;
-     color: tomato;
- }
- .vid1{
-     width: 200vh;
-     height: 500px;
- }
- .im1{
-     width: 100vh;
-     height: 500px;
- }
- .p1{
-     float: right;
-     font-weight: bold;
-     font-size: 16px;
-     font-family: Lucida Calligraphy;
-     padding-top: 100px;
- }
- .im2{
-     float: right;
-     width: 104vh;
-     height: 500px;
- }
- .p2{
-     margin-top: -17px;
- }
- .p3{
-     float: left;
-     padding-top: 200px;
-     padding-left: 140px;
-     font-weight: bold;
-     font-family: Freestyle Script;
-     font-size: 40px;
- }
- .im3{
-     margin-left: -10px;
-    width: 206vh;
-     height: 250px;
-     
- }
- .p4{
-     font-family: Freestyle Script;
-     font-weight: bold;
-     font-size: 40px;
- }
- footer{
-     text-align: center;
-     background-color: black;
-     color: white;
-     margin: 0px ;
-     margin-bottom: -20px;
-     margin-left: -10px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
     
+}
+nav li{
+    display: inline-block;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+nav.nav li a{
+    
+    display: flex;
+    color: black;
+
+}
+header.header{
+    color: black;
+    
+}
+section.top-page{
+    background-size:cover;
+}
+/* contenu de la boite */
+.section-title{  
+    background-image: url(../images/ft1.jpg);
+    font-size:50px;
+    font-family: 'Abril FatFace';
+}
  
- }
+footer.footer{
+    display: inline-block;
+}
  
+image{
+    position: relative;
+    background-color: black;
+    background-position:left;
+}
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 25px;
+    height: 5px;
+    bottom: 0;
+}
+image-details{
+    background-color: #FFFFFFDF;
+    position: absolute;
+    bottom:0;
+}
+a.href{
+font-weight: bold;
+}
+body{
+
+    margin:0 auto;
+    background-color: rgb(41, 214, 223);
+    background-image: no-repeat;
+    height: 30px;
+    width: 1500px;
+}
+.p1{
+    float: left;
+    padding:left 200px ;
+    font-family: fantasy;
+    padding-top: 50px;
+}
+
+a:hover{
+    background-color:white;
+    border:1;
+    border-radius: 15px 50px;
+}
+.p2{
+
+    float: right;
+    padding: right 150px; 
+    font-family: fantasy;
+    padding-top: 50px;
+}
+h1{
+    color: black;
+}
+.vid1{
+    width: 100vh;
+    height: 500px;
+}

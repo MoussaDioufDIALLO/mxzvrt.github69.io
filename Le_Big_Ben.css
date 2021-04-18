@@ -1,0 +1,77 @@
+.BB{
+    background-image: url(../images/LD.jpg);
+    color: white; 
+    height:45vh;
+
+}
+body{
+
+    margin:0 auto;
+    background-color: rgb(41, 214, 223); 
+
+}
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+    
+nav li{
+    justify-content: space-between;
+    display: inline-block;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    }
+nav.nav li a{
+    justify-content: space-between;
+    font-weight: bold;
+    
+    display: flex;
+    color:black;
+
+}
+header.header{
+    color:black;
+    
+}
+a:hover{
+    background-color:white;
+    border:1;
+    border-radius: 15px 50px;
+} 
+.london{
+    font-weight: bold;
+}
+div.slides {
+    display: flex;
+    flex-direction: row;
+
+ }
+ div.slides {
+    display: flex;
+    flex-direction: row-reverse;
+    animation: glisse 10s infinite ease;
+
+}
+
+ img{
+     width: 350px;
+}
+@keyframes glisse{
+    0%{
+        transform: translateX(0);
+      }
+    15%{
+        transform: translateX(-300px);
+    }  
+    45%{
+        transform: translateX(-500px);
+      }
+    75%{
+        transform: translateX(-900px);
+    }
+    100%{
+        transform: translateX(0);
+    } 
+}
